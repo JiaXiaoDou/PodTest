@@ -1,0 +1,22 @@
+{
+  "name": "PodTest",
+  "version": "1.0.0",
+  "summary": "v1.0.0",
+  "description": "从前有座山，山上有座庙，庙里有个老和尚和小和尚，老和尚在给小和尚讲故事，故事说的是：从前有座上，上上有座庙……",
+  "homepage": "https://github.com/JiaXiaoDou/PodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JiaXiaoDou": "liusijia@socian.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/JiaXiaoDou/PodTest.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodTest/Classes/**/*"
+}
