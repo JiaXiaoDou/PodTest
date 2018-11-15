@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '1.2.0'
-  s.summary          = 'v1.2.0'
+  s.version          = '1.3.0'
+  s.summary          = 'v1.3.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   # }
 
   s.public_header_files = 'PodTest/Classes/**/*.h'
+  s.prefix_header_contents = '#import "VerifyUtility.h"'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
